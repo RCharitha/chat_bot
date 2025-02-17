@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chatbot Interface</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="chatbot-container">
+    <div class="chatbot">
+      <div class="chat-header">
+        <h2>Chatbot</h2>
+      </div>
+      <div class="chat-body" id="chatBody">
+        <div class="message bot">
+          <div class="avatar bot-avatar"></div>
+          <div class="text">Hello! How can I help you today?</div>
+        </div>
+        <div class="message user">
+          <div class="avatar user-avatar"></div>
+          <div class="text">I need assistance.</div>
+        </div>
+      </div>
+      <div class="chat-footer">
+        <input type="text" id="userInput" placeholder="Type your message..." />
+        <button id="sendBtn">Send</button>
+      </div>
+    </div>
+    <div class="chatbot-image">
+      <img src="\static\image-removebg-preview.png" alt="Chatbot Robot">
+    </div>
+  </div>
+  <script src="/static/script.js"></script>
+</body>
+</html>
